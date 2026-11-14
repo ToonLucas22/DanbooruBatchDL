@@ -1,0 +1,2 @@
+./path/to/directory/
+list your tags here
