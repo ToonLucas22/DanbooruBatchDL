@@ -93,7 +93,7 @@ type Post struct {
 //Do not edit these variables directly; edit credentials.txt instead
 var username = "";
 var apiKey = "";
-var agent = "BatchDLBot/1.0 (user #%d)"; //DO NOT CHANGE THIS UNLESS FORKING OR UPDATING THE BOT
+var agent = "BatchDLBot/1.0 (user #560996)"; //DO NOT CHANGE THIS UNLESS FORKING OR UPDATING THE BOT
 
 //Do not edit these variables directly; edit arguments.txt instead
 var filepath = ""
@@ -226,7 +226,7 @@ func main() {
 	cParams := strings.Split(string(credentials), "\n");
 	username = cParams[0];
 	apiKey = cParams[1];
-	userID := cParams[2];
+	//userID := cParams[2];
 
 	args, err := os.ReadFile("arguments.txt"); //do not change this
 	if err != nil {
@@ -244,7 +244,7 @@ func main() {
 	}
 	tags = fmt.Sprintf("%s%s", tags, arrTags[i]);
 
-	agent = fmt.Sprintf(agent, userID);
+	//agent = fmt.Sprintf(agent, userID);
 
 	url := fmt.Sprintf("https://%s:%s@danbooru.donmai.us/", username, apiKey);
 
