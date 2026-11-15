@@ -3,7 +3,7 @@ Danbooru batch downloader program that mass downloads posts according to what ta
 
 Created by letcreate (ToonLucas22 on GitHub)
 
-This program was born out of intense dissatisfaction with all the existing booru downloader programs I could find when I wanted to do a mass batch download (i.e. none of them worked). With my recently attained knowledge about putting together web clients, I decided to a mass batch downloader instead.
+This program was born out of intense dissatisfaction with all the existing booru downloader programs I could find when I wanted to do a mass batch download (i.e. none of them worked). With my recently attained knowledge about putting together web clients, I decided to a mass batch downloader myself instead.
 
 ## Prerequisites
 This program requires Go version 1.24.4 (later versions may also work).
